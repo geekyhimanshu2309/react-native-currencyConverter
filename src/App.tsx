@@ -89,7 +89,7 @@ const App = (): JSX.Element => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#515151',
+    backgroundColor: '#01013f',
   },
   topContainer: {
     flex: 1,
@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
   },
   resultTxt: {
     fontSize: 32,
-    color: '#000000',
+    color: '#ffffff',
     fontWeight: '800',
   },
   rupee: {
@@ -110,6 +110,8 @@ const styles = StyleSheet.create({
   rupeesContainer: {
     flexDirection: 'row',
     alignItems: 'center',
+    backgroundColor: '#ffffff',
+    borderRadius: 10,
   },
   inputAmountField: {
     height: 40,
